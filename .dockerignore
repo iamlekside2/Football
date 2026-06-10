@@ -1,0 +1,11 @@
+**/node_modules
+**/__pycache__
+**/*.pyc
+frontend/dist
+.git
+*.log
+*.png
+cloudflared.exe
+diagnostics_output.txt
+.venv
+venv

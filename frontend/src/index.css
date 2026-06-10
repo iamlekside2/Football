@@ -1,0 +1,33 @@
+:root {
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: dark;
+  color: #e2e8f0;
+  background: #0b0e14;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #0b0e14;
+}
+
+h1, h2, h3 { font-weight: 600; color: #f1f5f9; }
+
+button { font-family: inherit; }
+
+select, input[type='range'] {
+  accent-color: #4f9cf9;
+}
+select {
+  background: #1a1f29;
+  color: #e2e8f0;
+  border: 1px solid #2a2f3a;
+  border-radius: 6px;
+  padding: 6px 8px;
+}

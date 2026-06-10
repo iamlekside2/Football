@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Backtest artifacts
+*.png
+backend/*.png
+diagnostics_output.txt
+
+# Node / frontend
+node_modules/
+frontend/dist/
+*.local
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/

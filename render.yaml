@@ -1,0 +1,12 @@
+# Render Blueprint — one-click deploy of the Football Predictor.
+# In Render: New → Blueprint → connect this repo. Render reads this file.
+services:
+  - type: web
+    name: football-predictor
+    runtime: docker
+    plan: starter            # 'free' works but 512MB may be tight for the ML models
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: API_FOOTBALL_KEY   # optional: set to enable the live club "Today" tab
+        sync: false

@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+requests>=2.31
+matplotlib>=3.8
+xgboost>=2.0
