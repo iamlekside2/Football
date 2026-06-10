@@ -15,6 +15,13 @@ node_modules/
 frontend/dist/
 *.local
 
+# Tunnel binary + logs (not part of the app)
+cloudflared.exe
+cf_out.log
+cf_err.log
+cf.log
+*.log
+
 # Editor / OS
 .DS_Store
 .idea/
